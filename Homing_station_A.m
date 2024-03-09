@@ -6,7 +6,7 @@ pressDown = readTouch(TouchDownobj);
 pressUp = readTouch(TouchUpobj);
 
 %to set elbow motor at home postion
-motor2Obj.Speed = -30;
+motor2Obj.Speed = -25;
 start(motor2Obj);
 
  while pressUp == 0
@@ -28,7 +28,7 @@ start(motor3Obj);
  motor3Obj.Speed = 0;
  pressDown = 0;
 
-%to reset rotation of motor 2&3
+%to reset rotation of motor 2 & motor3
 resetRotation(motor2Obj); 
 resetRotation(motor3Obj); 
  
