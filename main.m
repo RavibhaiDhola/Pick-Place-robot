@@ -16,7 +16,7 @@ close all;
 Homing_station_A(motor3,motor2,motor1,TouchUp,TouchDown)
 % %  
 %Pick station coordinates
-x =10; y = 0; z =-70; 
+x =10; y = 0; z =-68; 
 %calling pick functions
 Pick(motor3,motor2,motor1,TouchUp,x,y,z)
 
@@ -35,19 +35,19 @@ x =-10; y = 0; z =0;
 Pick(motor3,motor2,motor1,TouchUp,x,y,z)
 
 %Place station coordinates
-x =0; y = 10; z =-70; 
+x =0; y = 10; z =-68; 
 %calling place functions
 Place(motor3,motor2,motor1,x,y,z)
 
 %%%%%%%%  Station  B to C   %%%%%%%%%%%%%%%%%%%%%
 
 % Pick station coordinates
-x =0; y = 10; z =-70; 
+x =0; y = 10; z =-68; 
 %calling pick functions
 Pick(motor3,motor2,motor1,TouchUp,x,y,z)
 
 %Place station coordinates
-x =10; y = 0; z =-70; 
+x =10; y = 0; z =-68; 
 %calling place functions
 Place(motor3,motor2,motor1,x,y,z)
 
